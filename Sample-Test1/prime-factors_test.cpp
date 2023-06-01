@@ -1,7 +1,7 @@
 #include "pch.h"
 #include "../Project1/prime-factors.cpp"
 
-TEST(TestCaseName, TestName) {
+TEST(PrimeFactors, Of1) {
 	PrimeFactor p;
 	vector<int> expected = {};
 	EXPECT_EQ(expected, p.of(1));
